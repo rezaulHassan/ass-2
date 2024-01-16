@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;700;800;900;1000&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+   
+}
+.icone{
+     display: inline-flex;
+     gap: 10px;
+    
+}
+
+.menu > ul > li{
+    display: inline-flex;
+    padding: 5px 0px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 40px;  
+}
+.nav{
+    width: 800px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+@media screen and (min-width:992px) {
+    .nav{
+        flex-direction: row;
+       
+   }
+   
+}
+@media screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 400px;
+    }
+    .menu{
+       display: ;
+    }
+    
+
+    }
+
+    .bnr-bg {
+        background-image: url('../images/bbk.png');
+        background-size: cover;
+        width: 800px;
+        height: 400px;
+        
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 16px;
+        background: linear-gradient(rgba(53, 15, 157, 0));
+        margin-left: 135px;
+        margin-right: 135px;
+        margin-top: 49px;
+
+
+
+
+     }
+    .bnr-bg h1{
+        
+    }
+   .search-form{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+   
+    gap: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 100px;
+
+  
+        
+   }
+   .placeholder-a{
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+}
+
+   @media screen and (min-width:992px) {
+    .bnr-bg{
+        flex-direction: row;
+    
+}
+
+}
+@media screen and (max-width: 600px) {
+    .search-form {
+        flex-direction: column;
+        
+        
+    }
+    .bnr-bg{
+        width: 300px;
+        height: 400px;   
+    }
+}
+    /*section-2   */
+    .packages {
+        display: inline-flex;
+        margin-top: 100px;
+        margin-left: 135px;
+        margin-right: 135px;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+
+@media screen and (min-width: 992px) {
+    .packages{
+        flex-direction: row;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .packages{
+flex-direction: column;
+    }
+}
