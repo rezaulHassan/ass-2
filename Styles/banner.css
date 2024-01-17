@@ -149,6 +149,7 @@ flex-direction: column;
 }
 
 /* section go */
+
 .go-text{
      
     display: grid;
@@ -173,20 +174,25 @@ flex-direction: column;
 }
 
 .go-img{
+    
+    justify-content: space-between;
     width: 1400px;
     margin-left: 135px;
     margin-right: 135px;
     gap: 10px;
+ 
 }
+
 @media screen and (min-width: 992px) {
      .go{
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 @media screen and (max-width: 600px) {
      .go{
-        flex-direction: grid;
+        flex-direction: column;
     }
+    
 }
 
 /* why choose us */
